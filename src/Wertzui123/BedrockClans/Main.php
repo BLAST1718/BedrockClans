@@ -151,6 +151,7 @@ class Main extends PluginBase
             if($loadYAML){
                 $name = basename($name, '.yml');
             }
+            var_dump($name);
             $this->addClan($name);
         }
     }
